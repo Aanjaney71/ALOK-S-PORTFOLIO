@@ -61,7 +61,7 @@ export default function Hero() {
                <a href="https://github.com/Aanjaney71" target="_blank" rel="noopener noreferrer" className="text-[#555555] hover:text-[#E9A23B] transition-colors p-2" aria-label="GitHub">
                  <GithubIcon size={26} />
                </a>
-               <a href="https://linkedin.com/in/aanjaneyuprit" target="_blank" rel="noopener noreferrer" className="text-[#555555] hover:text-[#0077B5] transition-colors p-2" aria-label="LinkedIn">
+               <a href="https://www.linkedin.com/in/aanjaney-uprit71/" target="_blank" rel="noopener noreferrer" className="text-[#555555] hover:text-[#0077B5] transition-colors p-2" aria-label="LinkedIn">
                  <LinkedinIcon size={26} />
                </a>
             </div>

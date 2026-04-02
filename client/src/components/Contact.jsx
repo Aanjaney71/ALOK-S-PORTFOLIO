@@ -24,7 +24,7 @@ const WhatsAppIcon = ({ size = 16 }) => (
 const contactInfo = [
   { icon: WhatsAppIcon, label: 'WhatsApp', value: '+91 7489500475', href: 'https://wa.me/917489500475', color: '#25D366' },
   { icon: Mail, label: 'Email', value: 'aanjaneyuprit@gmail.com', href: 'mailto:aanjaneyuprit@gmail.com', color: '#E9A23B' },
-  { icon: LinkedinIcon, label: 'LinkedIn', value: 'linkedin.com/in/aanjaneyuprit', href: 'https://linkedin.com/in/aanjaneyuprit', color: '#0077B5' },
+  { icon: LinkedinIcon, label: 'LinkedIn', value: 'linkedin.com/in/aanjaney-uprit71', href: 'https://www.linkedin.com/in/aanjaney-uprit71/', color: '#0077B5' },
   { icon: GithubIcon, label: 'GitHub', value: 'github.com/Aanjaney71', href: 'https://github.com/Aanjaney71', color: '#222222' },
   { icon: MapPin, label: 'Location', value: 'Indore, MP', href: null, color: '#555555' },
 ]

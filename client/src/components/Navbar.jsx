@@ -41,7 +41,7 @@ export default function Navbar() {
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.6, ease: 'easeOut' }}
     >
-      <div className="section-container">
+      <div className="w-full max-w-[1300px] mx-auto px-6">
         <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
           <a href="#home" onClick={(e) => { e.preventDefault(); handleNavClick('#home') }}>
@@ -112,7 +112,7 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             className="md:hidden border-t border-[#EEEEEE] bg-white"
           >
-            <div className="section-container py-4 flex flex-col gap-1">
+            <div className="w-full max-w-[1300px] mx-auto px-6 py-4 flex flex-col gap-1">
               {navLinks.map((link) => (
                 <button
                   key={link.label}
