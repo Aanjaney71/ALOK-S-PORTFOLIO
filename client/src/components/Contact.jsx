@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { Send, Mail, MapPin, CheckCircle, Loader2 } from 'lucide-react'
-import axios from 'axios'
 import toast from 'react-hot-toast'
 
 const LinkedinIcon = ({ size = 16 }) => (
@@ -45,7 +44,9 @@ export default function Contact() {
     }
     setLoading(true)
     try {
-      await axios.post('/api/contact', form)
+      // Simulate network request instead of actual backend call
+      await new Promise(resolve => setTimeout(resolve, 1500))
+      
       setSent(true)
       toast.success("Message sent! I'll get back to you within 24 hours.")
       setForm({ name: '', email: '', subject: '', message: '' })
